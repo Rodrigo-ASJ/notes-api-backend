@@ -1,7 +1,7 @@
 import express from 'express';
 import { nanoid } from 'nanoid';
 import cors from 'cors';
-import logger from '../loggerMiddleware.mjs';
+import logger from './loggerMiddleware.mjs';
 
 const app = express();
 app.use(cors()); // usar el middleware de cors
