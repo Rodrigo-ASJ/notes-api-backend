@@ -27,7 +27,7 @@ let notes = [
 	},
 ];
 
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
 	res.send('<h1>Notes</h1>');
 });
 
